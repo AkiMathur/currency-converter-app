@@ -8,7 +8,7 @@ const populate = async(value, currency) => {
         key,rJson["data"][key]["code"],rJson["data"][key]["value"]
     }
     const tableBody = document.querySelector("tbody")
-    tableBody.innerHTML = `
+    tableBody.innerHTML = 
     <tr>
     <td>Data1</td>
     <td>Data2</td>
